@@ -5,6 +5,7 @@ using FluentCsv.Exceptions;
 
 namespace FluentCsv.CsvParser.Splitters
 {
+	/*
     public class Rfc4180DataSplitter : IDataSplitter
     {
 	    private const char Quote = '"';
@@ -130,5 +131,5 @@ namespace FluentCsv.CsvParser.Splitters
 	        }
 	        return result.ToArray();
         }
-    }
+    }*/
 }

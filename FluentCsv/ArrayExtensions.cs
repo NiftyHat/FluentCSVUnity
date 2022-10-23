@@ -11,6 +11,7 @@ namespace FluentCsv
                 action(element);
         }
 
+        /*
         public static string[] Split(this ReadOnlySpan<char> input, ReadOnlySpan<char> delimiter)
         {
 	        List<string> result = new List<string>();
@@ -35,6 +36,6 @@ namespace FluentCsv
 	        } while (delimiterIndex != -1);
 
 	        return result.ToArray();
-        }
+        }*/
     }
 }

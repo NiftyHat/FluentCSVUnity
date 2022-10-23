@@ -13,7 +13,7 @@ namespace FluentCsv.FluentReader
         public bool FirstLineHasHeader = false;
         public bool HeaderCaseInsensitive = true;
 
-        public IDataSplitter DataSplitter { get; set; } = new Rfc4180DataSplitter();
+        public IDataSplitter DataSplitter { get; set; } = new SimpleDataSplitter();
         public CultureInfo CultureInfo { get; set; } = CultureInfo.CurrentCulture;
     }
 }
